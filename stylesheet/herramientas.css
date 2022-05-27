@@ -1,0 +1,125 @@
+.icon_container{
+    text-align: center;  
+    padding-top: 20px;
+}
+.icons{
+    font-size: 50px;
+    background: -webkit-linear-gradient(
+      270deg,
+  hsl(247deg 84% 56%) 0%,
+  hsl(251deg 83% 55%) 18%,
+  hsl(255deg 83% 55%) 24%,
+  hsl(259deg 82% 54%) 29%,
+  hsl(262deg 81% 54%) 34%,
+  hsl(265deg 81% 53%) 40%,
+  hsl(268deg 80% 52%) 47%,
+  hsl(271deg 79% 52%) 57%,
+  hsl(274deg 79% 51%) 72%,
+  hsl(276deg 78% 50%) 100%
+
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.icons p{
+    font-size: 7px;
+    color: black;
+    font-family: 'Mulish', sans-serif; 
+}
+
+.icons h3{
+    color: black;
+    font-family: 'Kanit', sans-serif; 
+    font-weight: bolder;
+}
+
+#elipse{
+    position:absolute;
+    top:75px;
+    left:-54px;
+    height:250px;
+    width:250px;
+    border-radius:200px;
+    background: linear-gradient(
+        310deg,
+        hsl(276deg 78% 50%) 0%,
+          hsl(274deg 79% 51%) 18%,
+          hsl(271deg 79% 52%) 34%,
+          hsl(268deg 80% 52%) 48%,
+          hsl(265deg 81% 53%) 60%,
+          hsl(262deg 81% 54%) 71%,
+          hsl(259deg 82% 54%) 80%,
+          hsl(255deg 83% 55%) 87%,
+          hsl(251deg 83% 55%) 94%,
+          hsl(247deg 84% 56%) 100%
+    );
+}
+
+#elipse2{
+    position:absolute;
+    top:320px;
+    left:-40px;
+  height:10px;
+  width:10px;
+  border-radius:200px;
+  background: linear-gradient(
+  310deg,
+  hsl(276deg 78% 50%) 0%,
+  hsl(274deg 79% 51%) 18%,
+  hsl(271deg 79% 52%) 34%,
+  hsl(268deg 80% 52%) 48%,
+  hsl(265deg 81% 53%) 60%,
+  hsl(262deg 81% 54%) 71%,
+  hsl(259deg 82% 54%) 80%,
+  hsl(255deg 83% 55%) 87%,
+  hsl(251deg 83% 55%) 94%,
+  hsl(247deg 84% 56%) 100%
+);
+}
+
+#rectangulo{
+    position:absolute;
+  height:15px;
+  width:5px;
+    top:30px;
+    left:240px;
+  border-radius:200px;
+  background: linear-gradient(
+  310deg,
+  hsl(276deg 78% 50%) 0%,
+  hsl(274deg 79% 51%) 18%,
+  hsl(271deg 79% 52%) 34%,
+  hsl(268deg 80% 52%) 48%,
+  hsl(265deg 81% 53%) 60%,
+  hsl(262deg 81% 54%) 71%,
+  hsl(259deg 82% 54%) 80%,
+  hsl(255deg 83% 55%) 87%,
+  hsl(251deg 83% 55%) 94%,
+  hsl(247deg 84% 56%) 100%
+);
+transform:rotate(50deg);
+}
+
+#rectangulo2{
+    position:absolute;
+  height:15px;
+  width:5px;
+    top:30px;
+    left:240px;
+  border-radius:200px;
+  background: linear-gradient(
+  310deg,
+  hsl(276deg 78% 50%) 0%,
+  hsl(274deg 79% 51%) 18%,
+  hsl(271deg 79% 52%) 34%,
+  hsl(268deg 80% 52%) 48%,
+  hsl(265deg 81% 53%) 60%,
+  hsl(262deg 81% 54%) 71%,
+  hsl(259deg 82% 54%) 80%,
+  hsl(255deg 83% 55%) 87%,
+  hsl(251deg 83% 55%) 94%,
+  hsl(247deg 84% 56%) 100%
+);
+transform:rotate(-50deg);
+}

@@ -22,7 +22,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <!-- Place your stylesheet here-->
-    <link href="stylesheet.css" rel="stylesheet" type="text/css">
+    <link href="stylesheet/global.css" rel="stylesheet" type="text/css">
+    <link href="stylesheet/herramientas.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
@@ -38,7 +39,7 @@
       
     </ul>
     <a class="nav-link" href="#">Herramientas <span class="sr-only">(current)</span></a>
-    <a class="nav-link nocolor" href="index2.html">Descarga</a>
+    <a class="nav-link nocolor" href="descarga.html">Descarga</a>
     <a href="https://factoriaf5.org/ca/contacte/" id="botoFeedback" class="btn btn-primary my-2 my-sm-0"><i class="bi bi-chat-text-fill"></i> Enviar feedback</a>
     
   </div>
@@ -46,12 +47,13 @@
 //esto es el main
     <main role="main" class="container">
         <div class="row">
-		<div class="col-md-4" id="tv_container" style="left:100px;">
+		<div class="col-md-4" id="mobileContainer" style="left:100px;">
             <div id="elipse"></div>
             <div id="elipse2"></div>
-            
+            <div id="rectangulo"></div>
+            <div id="rectangulo2"></div>
             <video width="180" height="380" autoplay muted loop>
-                <source src="demo.mp4" type="video/mp4" />
+                <source src="media/mp4/demo.mp4" type="video/mp4" />
             </video>
 		</div>  
 		<div class="col-md-4 icon_container"> 
