@@ -1,0 +1,37 @@
+body{
+    background-color:black;
+    background-image: url(https://images.unsplash.com/photo-1629701764404-907eed4a139d?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032) ;
+    background-size:100%;
+}
+#container{
+    height: calc(110vh - 80px);
+    align-items:center;
+}
+#tomanota{
+    color:white;
+    font-family: 'Newsreader';
+    font-style: normal;
+    font-weight: 900;
+    text-align-last:left;
+    margin-left:180px;
+    padding-top:200px;
+    margin-bottom:50px;
+    font-size:65px; ;
+}
+
+#factoria{
+    font-size: 15px;
+    outline:none;
+    color:#ffffff;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:20px;
+    padding-right:20px;
+    background-color: transparent;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ffffff;
+    border-radius:30px;
+    margin-bottom:100px;
+    margin-left:180px;
+}
