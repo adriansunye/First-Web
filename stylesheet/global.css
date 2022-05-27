@@ -4,6 +4,7 @@
 }
 
 #mobileContainer {
+    left:100px;
     text-align: center;
     height: 400px; /* Adjust mobile image height */
     position:relative;   
